@@ -21,8 +21,12 @@
     background-color: #043434;
     width: 90%;
     height: 50vh;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
+    gap: 60px;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
     
     
 }
@@ -33,7 +37,10 @@
 
 .tituloHero{
     font-family: 'Cooper';
-    font-size: 50px;
+    font-size: 46px;
+    color: #049494;
+    
+
 
 }
 
