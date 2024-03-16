@@ -1,3 +1,8 @@
 paleta de colores:
 
 #049494
+
+
+
+ verde:
+ #7e8975
