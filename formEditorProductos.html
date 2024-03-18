@@ -26,27 +26,28 @@
 
 
 </head>
-
 <body style="display: flex; flex-direction: column;">
-  <header class="header"  style="background-color:    #049494; position: relative !important;">
-    <a href="" class="logo" style="display: flex; justify-content: center; align-items: center;"><img src="./img/logoMascotaFeliz-.png" alt="" width="90"> Mascota Feliz</a>
+  <header class="header" style="background-color:    #049494;">
+    <header class="header"  style="background-color:    #049494; position: relative !important;">
+      <a href="" class="logo" style="display: flex; justify-content: center; align-items: center;"><img src="./img/logoMascotaFeliz-.png" alt="" width="90"> Mascota Feliz</a>
+  
+      <input type="checkbox" id="check">
+      <label for="check" class="icons">
+          <box-icon name='menu' id="menu-icon" ></box-icon>
+          <box-icon name='x' id="close-icon" ></box-icon>
+      </label>
+  
+      <nav class="navbar">
+      <a href="" style="--i:0;">Home</a>
+      <a href="" style="--i:1;">Contactanos</a>
+      <a href="" style="--i:2;">Sucursales</a>
+      <a href="" style="--i:3;">Planes</a>
+      <a href="" style="--i:4;">Productos</a>
+      <a href="" style="--i:5;">Registrarme</a>
+      <a href="" style="--i:6;">Iniciar Sesion</a>
+      </nav>
+    </header>
 
-    <input type="checkbox" id="check">
-    <label for="check" class="icons">
-        <box-icon name='menu' id="menu-icon" ></box-icon>
-        <box-icon name='x' id="close-icon" ></box-icon>
-    </label>
-
-    <nav class="navbar">
-    <a href="" style="--i:0;">Home</a>
-    <a href="" style="--i:1;">Contactanos</a>
-    <a href="" style="--i:2;">Sucursales</a>
-    <a href="" style="--i:3;">Planes</a>
-    <a href="" style="--i:4;">Productos</a>
-    <a href="" style="--i:5;">Registrarme</a>
-    <a href="" style="--i:6;">Iniciar Sesion</a>
-    </nav>
-  </header>
   <section style="background-color: white !important; display: flex; flex-direction: column; justify-content: center; align-items: center; padding-top: 50px;"><h2 style="color: #333;">Escribenos</h2>
     <p style="color: #333;">Pronto nos pondremos en contacto contigo</p></section>
 
@@ -61,14 +62,57 @@
   <div class="secciones" style="display: flex; align-items: center;">
     <form action="">
       <input type="text" placeholder="Nombre">
-      <input type="text" placeholder="Apellido">
+      <select id="mi-input" name="mi-input" style="background-color: #fff; appearance: none; -webkit-appearance: none; -moz-appearance: none;">
+        <option value="">Selecciona una opción</option>
+        <option value="Opción 1">Opción 1</option>
+        <option value="Opción 2">Opción 2</option>
+        <!-- Agrega más opciones según sea necesario -->
+      </select>
+      
+
+ 
       <input type="text" placeholder="Teléfono">
-      <input type="text" placeholder="Correo Electrónico">
+      <select id="mi-input" name="mi-input" style="background-color: #fff; appearance: none; -webkit-appearance: none; -moz-appearance: none;">
+        <option value="">Selecciona una opción</option>
+        <option value="Opción 1">Opción 1</option>
+        <option value="Opción 2">Opción 2</option>
+        <!-- Agrega más opciones según sea necesario -->
+      </select>
       <input type="text" placeholder="Mensaje" style="width: 92% !important;">
       <button type="submit" style="width: 120px;">Enviar<i class="fa-regular fa-paper-plane" style="margin-left: 20px;"></i></button>  
     </form>
   </div>
   <style>
+
+
+
+
+input[type="text"], select, textarea {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #000000; /* Texto en negro para contraste */
+  /* Otros estilos como padding, bordes, etc. */
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50; /* Un color verde para el botón */
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049; /* Un tono de verde más oscuro para el hover */
+}
+
 
     section{
    

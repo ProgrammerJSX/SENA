@@ -26,7 +26,6 @@
 
 
 </head>
-
 <body style="display: flex; flex-direction: column;">
   <header class="header"  style="background-color:    #049494; position: relative !important;">
     <a href="" class="logo" style="display: flex; justify-content: center; align-items: center;"><img src="./img/logoMascotaFeliz-.png" alt="" width="90"> Mascota Feliz</a>
@@ -47,95 +46,82 @@
     <a href="" style="--i:6;">Iniciar Sesion</a>
     </nav>
   </header>
+
   <section style="background-color: white !important; display: flex; flex-direction: column; justify-content: center; align-items: center; padding-top: 50px;"><h2 style="color: #333;">Escribenos</h2>
+
     <p style="color: #333;">Pronto nos pondremos en contacto contigo</p></section>
+
+
+
+
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #263238; /* color de fondo general */
+        color: #ffffff;
+        margin: 0;
+        padding: 20px;
+      }
+      .table-header {
+        background-color: #37474F; /* color de fondo del encabezado de la tabla */
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+      }
+      .table-row {
+        background-color: #455A64; /* color de fondo de las filas */
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #607D8B; /* borde superior para separar las filas */
+        text-align: center;
+      }
+      .table-header div, .table-row div {
+        flex: 1;
+        padding: 0 10px;
+      }
+      /* Estilos para la primera columna un poco más ancha */
+      .table-header div:first-child, .table-row div:first-child {
+        flex: 1.5;
+      }
+    </style>
+
+
 
 <section style="background-color: white !important;">
 
 
 
-
-
-
-
-  <div class="secciones" style="display: flex; align-items: center;">
-    <form action="">
-      <input type="text" placeholder="Nombre">
-      <input type="text" placeholder="Apellido">
-      <input type="text" placeholder="Teléfono">
-      <input type="text" placeholder="Correo Electrónico">
-      <input type="text" placeholder="Mensaje" style="width: 92% !important;">
-      <button type="submit" style="width: 120px;">Enviar<i class="fa-regular fa-paper-plane" style="margin-left: 20px;"></i></button>  
-    </form>
-  </div>
-  <style>
-
-    section{
+  <div class="table-header">
+    <div>Departamento</div>
+    <div>Ciudad</div>
+    <div>Dirección</div>
    
-      display: flex;
-      justify-content: center;
-    }
-
-    body {
-    font-family: 'Arial', sans-serif;
-
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  .secciones {
-    background-color: #043434;
-    padding: 20px;
-
-    width: 500px; /* Definir un ancho fijo para el formulario */
-  }
-  .form-row {
-    display: flex;
-    justify-content: space-between;
-  }
-  .form-column {
-    display: flex;
-    flex-direction: column;
-    width: 48%; /* Casi la mitad del espacio disponible para cada columna */
-  }
-  input[type="text"] {
-    padding: 10px 0;
-    border: none;
-    border-bottom: 1px solid #B0BEC5; /* Solo borde inferior */
-    background-color: transparent; /* Fondo transparente */
-    color: #ffffff;
-    margin-bottom: 15px; /* Espaciado debajo del input */
-    margin: 10px;
-  }
-  input[type="text"]:focus {
-    outline: none;
-    border-bottom: 2px solid #333; /* Borde más grueso al enfocar */
-  }
-  input[type="text"]::placeholder {
-    color: #B0BEC5; /* color del placeholder */
-  }
-  button {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    color: #ffffff;
-    background-color: #333; /* color de fondo del botón enviar */
-    cursor: pointer;
-    width: 100%; /* Hacer que el botón sea del ancho completo */
-  }
-  button:hover {
-    background-color: #333; /* color más oscuro al pasar el mouse */
-  }
-  </style>
-
-
-  <div class="secciones">
-
-    <img src="./img/perroHEROE.webp" width="450" style="border-radius: 100%;" alt="">
   </div>
+  <div class="table-row">
+    <div>Putumayo</div>
+    <div>Mocoa</div>
+    <div>km 6 via puerto, Vereda el pepino</div>
+  
+  </div>
+  <div class="table-row">
+    <div>Putumayo</div>
+    <div>Mocoa</div>
+    <div>km 6 via puerto, Vereda el pepino</div>
+  
+  </div>
+
+  <div class="table-row">
+    <div>Putumayo</div>
+    <div>Mocoa</div>
+    <div>km 6 via puerto, Vereda el pepino</div>
+  
+  </div>
+
+
+
+
 
 
 </section>
